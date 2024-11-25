@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--link de Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+<!--link a íconos-->
+
+<link rel="stylesheet" href="https://icons.getbootstrap.com/assets/font/bootstrap-icons.min.css">
+
+<!--link a aos css-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   
+    <!--link a mi css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <!--link de js de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <title>recuperatorio</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="imagenes/logo final.png" alt="logo">CM styling</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miMenu">
+            <span class="bi bi-grid-fill"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="miMenu">
+            <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Redes sociales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/cm.styling/">Instagram</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                  <li><button type="button" class="ms-2 btn btn-dark" data-bs-toggle="modal" data-bs-target="#miModal">
+                   Contacto
+                    </button> <!--boton de modal-->
+                  </li>
+                </ul>
+              </li>
+            
+            </ul>
+           
+          </div>
+        </div>
+      </nav> <!--cierra barra de navegación-->
+    
+
+
+<main class="container-md">
+<section class="w-75 m-auto">
+    <!--comienza componente carousel
+    -->
+    <div id="descripcionCarousel" class="carousel slide img-thumbnail">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#descripcionCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#descripcionCarousel" data-bs-slide-to="1" ></button>
+
+        
+        
+        </div> <!--cierran los indicadores del carousel-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/web img 1.jpg" class="d-block w-100" alt="imagen foto 1">
+            <div class="carousel-caption d-none d-md-block">
+            
+            </div> <!--caption de la imagen 1-->
+          </div> <!--cierra contenedor imagen 1-->
+          <div class="carousel-item">
+            <img src="imagenes/web img 3.png" class="d-block w-100" alt="imagen foto 2">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div> <!--descripcion de la segunda imagen-->
+          </div> <!--segunda imagen-->
+           
+        </div> <!--carousel inner-->
+
+         <!--parte de las flechas-->
+         <button class="carousel-control-prev" type="button" data-bs-target="#descripcionCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button> <!--flecha para ir hacia atrás-->
+        <button class="carousel-control-next" type="button" data-bs-target="#descripcionCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button> <!--flech para ir hacia adelante-->
+      </div> <!--cierre general del carousel-->
+     
+        
+        
+      </div> <!--cierre general del carousel-->
+     
+    </section> <!--section del carousel-->
+
+    <div data-aos="fade-up" data-aos-duration="1000">
+      <h1>Empoderate con tus joyas </h1>
+      <h2>Hacemos que el poder femenino y autoestima te haga brillar más que las joyas </h2>
+  </div>
+  
+     
+     <section class="mt-3 w-100 row justify-content-around">
+      <div class="col-md-12 col-lg-2 pt-2">
+             <h3>Conexion personal</h3>
+     <p>CM Styling busca que sus joyas reflejen la esencia profunda de quien las lleva, conectando al cliente con materiales naturales y formas que resuenan con su personalidad y su entorno. </p>
+     
+           </div>
+     
+           <div class="col-md-5 col-lg-2 pt-2"data aos>
+             <h3>Diseña tu joya</h3>
+             <p>Cada cliente tiene la oportunidad de participar en el diseño de su pieza, seleccionando materiales, formas y piedras que conecten con su energía y necesidades individuales.El proceso de creación es altamente colaborativo .</p>
+     
+           </div>
+     
+           <div class="col-md-5 col-lg-2 pt-2">
+             <h3>Proceso detallado</h3>
+             <p>La empresa valora la artesanía como un proceso que requiere tiempo, dedicación y atención a los detalles. Cada pieza es tratada como una obra de arte que evoluciona desde la materia prima hasta un diseño único. </p>
+     
+           </div>
+         </section>
+     </main>
+     
+     
+<section class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <div class="col-md-6 col-lg-4 text-center">
+    <h4 class="text-center">Mirada antroposófica</h4>
+    <p> Cada pieza se convierte en un vínculo entre el alma y el cosmos, un recordatorio de la belleza que surge del interior hacia el exterior."</p>
+  </div>
+</section>
+
+<section class="d-flex flex-row justify-content-center mt-2">
+  <div class="col-12 col-md-6 col-lg-2 text-center">
+      <img src="imagenes/Mesa de trabajo 12.jpg" alt="Imagen 1" class="img-fluid img-thumbnail">
+  </div>
+  <div class="col-12 col-md-6 col-lg-2 text-center">
+      <img src="imagenes/Mesa de trabajo 8.png" alt="Imagen 2" class="img-fluid img-thumbnail">
+  </div>
+</section>
+
+
+ </section>
+
+
+</main>
+
+
+<!--acá está mi modal-->
+
+
+<div class="modal fade" id="miModal" tabindex="-1" >
+    <div class="modal-dialog">
+        <div class="modal-header">
+          <h1 class="modal-title" id="miModal">Formulario</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+
+
+            <form action="codigo.php" class="needs-validation" method="post" novalidate>
+            <div>
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" required name="nombre" id="nombre" class="form-control">
+
+            <div class="invalid-feedback">El campo de nombre está mal!</div>
+
+        </div> <!--cierra contenedor campo nombre-->
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" required name="email" id="email" class="form-control">
+
+            <div class="invalid-feedback">El campo de email está mal</div>
+
+            <!--cierra contenedor campo email-->
+
+         <button class="btn btn-secondary">Enviar Formulario</button>
+
+            </form>
+
+
+      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p> 2024 CM Styling. Todos los derechos reservados.</p>
+        
+    </div>
+</footer>
+
+
+
+<!--js de AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <!--inicialización de aos-->
+<script>
+  AOS.init();
+</script>
+
+
+<!--codigo que permite validaciòn de formulario-->
+<script src="js/codigo.js"></script>
+
+
+</body>
+</html>
